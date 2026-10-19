@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandre Claux</title>
+<meta name="description" content="Alexandre Claux — mechanical engineering, aviation, trains & travel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a class="logo" href="index.html">Alexandre <span>Claux</span></a>
+    <div class="nav-right">
+      <ul class="nav-links"><li><a href="index.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li><li><a href="experiences.html"><span lang="fr">Expériences</span><span lang="en">Experience</span></a></li><li><a href="projets.html"><span lang="fr">Projets</span><span lang="en">Projects</span></a></li><li><a href="interets.html"><span lang="fr">Centres d’intérêt</span><span lang="en">Interests</span></a></li><li><a href="voyages.html" class=active><span lang="fr">Voyages</span><span lang="en">Travel</span></a></li><li><a href="contact.html"><span lang="fr">Contact</span><span lang="en">Contact</span></a></li></ul>
+      <button class="lang-btn" id="lang-btn" type="button" aria-label="Change language / Changer de langue">
+        <span lang="fr"><img src="images/flags/gb.svg" alt="">English</span>
+        <span lang="en"><img src="images/flags/fr.svg" alt="">Français</span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="page-title reveal"><h1><span lang="fr">Voyages</span><span lang="en">Travel</span></h1><p class="muted"><span lang="fr">Cet été : des week-ends aux quatre coins du monde.</span><span lang="en">This summer: weekends all over the world.</span></p></div>
+  <div class="grid">
+    <article class="card reveal" style="grid-column:1/-1"><h3><img class="flag" src="images/flags/it.svg" alt=""><span lang="fr">Italie</span><span lang="en">Italy</span></h3><ul class="chips route"><li><span class="blob">Fiumicino</span></li><li><span class="arr">→</span><span class="blob"><span lang="fr">Rome</span><span lang="en">Rome</span></span></li><li><span class="arr">→</span><span class="blob">Florence</span></li><li><span class="arr">→</span><span class="blob"><span lang="fr">Naples</span><span lang="en">Naples</span></span></li></ul>
+      <div class="gallery"><figure><img src="images/italy-fiumicino.jpg" alt="Fiumicino" loading="lazy"><figcaption>Fiumicino</figcaption></figure><figure><img src="images/italy-florence.jpg" alt="Florence" loading="lazy"><figcaption>Florence</figcaption></figure><figure><img src="images/italy-naples.jpg" alt="Naples" loading="lazy"><figcaption><span lang="fr">Naples</span><span lang="en">Naples</span></figcaption></figure></div></article>
+    <article class="card reveal"><h3><img class="flag" src="images/flags/jp.svg" alt=""><span lang="fr">Japon</span><span lang="en">Japan</span></h3><ul class="chips route"><li><span class="blob"><span lang="fr">Tokyo et environs</span><span lang="en">Tokyo & surroundings</span></span></li></ul></article>
+    <article class="card reveal"><h3><img class="flag" src="images/flags/kr.svg" alt=""><span lang="fr">Corée du Sud</span><span lang="en">South Korea</span></h3><ul class="chips route"><li><span class="blob"><span lang="fr">Séoul et environs</span><span lang="en">Seoul & surroundings</span></span></li></ul></article>
+  </div>
+  <section class="block reveal">
+    <h2><span lang="fr">À venir</span><span lang="en">Coming up</span></h2>
+    <div class="grid small">
+      <article class="card" style="grid-column:1/-1"><h3><img class="flag" src="images/flags/jp.svg" alt=""><span lang="fr">Traversée du Japon en train</span><span lang="en">Crossing Japan by rail</span></h3><p class="muted"><span lang="fr">Du nord au sud — récit à venir.</span><span lang="en">North to south — write-up coming soon.</span></p><ul class="chips route"><li><span class="blob">Tokyo</span></li><li><span class="arr">→</span><span class="blob">Nagano</span></li><li><span class="arr">→</span><span class="blob">Kanazawa</span></li><li><span class="arr">→</span><span class="blob">Kyoto</span></li><li><span class="arr">→</span><span class="blob">Osaka</span></li><li><span class="arr">→</span><span class="blob">Hiroshima</span></li><li><span class="arr">→</span><span class="blob">Fukuoka</span></li></ul></article>
+      <article class="card"><h3><span lang="fr">Suisse</span><span lang="en">Switzerland</span></h3><ul class="chips route"><li><span class="blob"><span lang="fr">Zurich</span><span lang="en">Zurich</span></span></li><li><span class="arr">→</span><span class="blob"><span lang="fr">Lucerne</span><span lang="en">Lucerne</span></span></li><li><span class="arr">→</span><span class="blob">Zermatt</span></li></ul></article>
+      <article class="card"><h3>Hokkaido</h3><ul class="chips route"><li><span class="blob">Sapporo</span></li><li><span class="arr">→</span><span class="blob">Niseko</span></li></ul></article>
+      <article class="card"><h3><span lang="fr">Asie du Sud-Est</span><span lang="en">Southeast Asia</span></h3><ul class="chips route"><li><span class="blob"><span lang="fr">Singapour</span><span lang="en">Singapore</span></span></li><li><span class="arr">→</span><span class="blob">Hong Kong</span></li></ul></article>
+      <article class="card"><h3><span lang="fr">Islande</span><span lang="en">Iceland</span></h3><ul class="chips route"><li><span class="blob">Reykjavík</span></li></ul></article>
+    </div>
+  </section>
+</main>
+<footer><p>© 2026 — Alexandre Claux</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

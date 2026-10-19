@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandre Claux</title>
+<meta name="description" content="Alexandre Claux — mechanical engineering, aviation, trains & travel.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar">
+    <a class="logo" href="index.html">Alexandre <span>Claux</span></a>
+    <div class="nav-right">
+      <ul class="nav-links"><li><a href="index.html"><span lang="fr">Accueil</span><span lang="en">Home</span></a></li><li><a href="experiences.html"><span lang="fr">Expériences</span><span lang="en">Experience</span></a></li><li><a href="projets.html"><span lang="fr">Projets</span><span lang="en">Projects</span></a></li><li><a href="interets.html" class=active><span lang="fr">Centres d’intérêt</span><span lang="en">Interests</span></a></li><li><a href="voyages.html"><span lang="fr">Voyages</span><span lang="en">Travel</span></a></li><li><a href="contact.html"><span lang="fr">Contact</span><span lang="en">Contact</span></a></li></ul>
+      <button class="lang-btn" id="lang-btn" type="button" aria-label="Change language / Changer de langue">
+        <span lang="fr"><img src="images/flags/gb.svg" alt="">English</span>
+        <span lang="en"><img src="images/flags/fr.svg" alt="">Français</span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+  <div class="page-title reveal"><h1><span lang="fr">Centres d’intérêt</span><span lang="en">Interests</span></h1><p class="muted"><span lang="fr">Avions, trains, neige.</span><span lang="en">Planes, trains, snow.</span></p></div>
+  <div class="masonry">
+    <article class="card reveal"><figure class="cimg "><img src="images/a340-600.jpg" alt="Airbus A340-600" loading="lazy"></figure><span class="tag">Aviation</span><h3>Airbus A340-600</h3>
+      <p class="muted"><span lang="fr">Mon avion préféré. Premier vol en 2001, mis en service en 2002 : avec ses 75 m, quatre moteurs Rolls-Royce Trent 500 et son look élancé, il fut le plus long avion de ligne du monde jusqu’au 747-8 en 2011. Conçu pour les très longs vols, il est aujourd’hui devenu rare, donc d’autant plus précieux à croiser.</span><span lang="en">My favourite aircraft. First flew in 2001, entered service in 2002: at 75 m long with four Rolls-Royce Trent 500 engines and a sleek look, it was the world’s longest airliner until the 747-8 in 2011. Built for ultra-long-haul, it’s now rare, which makes every sighting special.</span></p></article>
+    <article class="card reveal"><figure class="cimg "><img src="images/rer-mi79.jpg" alt="MI79 RER B" loading="lazy"></figure><span class="tag"><span lang="fr">Trains</span><span lang="en">Trains</span></span><h3>MI79 · RER B</h3>
+      <p class="muted"><span lang="fr">Le train de mon enfance parisienne. Mis en service autour de 1980 pour le RER B, ce matériel à deux niveaux a transporté des millions de Franciliens avant d’être progressivement remplacé par le MI20. Un morceau d’histoire du quotidien parisien.</span><span lang="en">The train of my Paris childhood. Entering service around 1980 on RER B, this double-deck stock carried millions of Parisians before being gradually replaced by the new MI20. A piece of everyday Paris history.</span></p></article>
+    <article class="card reveal"><figure class="cimg "><img src="images/a359-pilot.jpg" alt="Airbus A350 cockpit" loading="lazy"></figure><span class="tag"><span lang="fr">Simulation</span><span lang="en">Simulation</span></span><h3><span lang="fr">Pilote… virtuel, pour l’instant</span><span lang="en">Virtual pilot, for now</span></h3>
+      <p class="muted"><span lang="fr">J’ai volé beaucoup, et plutôt bien, sur simulateur. L’étape suivante est évidente : apprendre à piloter pour de vrai.</span><span lang="en">I flew a lot, and quite well, on flight sims. The next step is obvious: learning to fly for real.</span></p></article>
+    <article class="card reveal"><figure class="cimg "><img src="images/whistler-beautiful.jpg" alt="Freeride skiing" loading="lazy"></figure><span class="tag"><span lang="fr">Sport</span><span lang="en">Sport</span></span><h3>Freeride</h3>
+      <p class="muted"><span lang="fr">Poudreuse hors-piste, forêts givrées et mers de nuages.</span><span lang="en">Off-piste powder, frosted forests and seas of cloud.</span></p></article>
+    <article class="card reveal"><figure class="cimg "><img src="images/ski-trick.jpg" alt="Freestyle skiing" loading="lazy"></figure><span class="tag"><span lang="fr">Sport</span><span lang="en">Sport</span></span><h3>Freestyle</h3>
+      <p class="muted"><span lang="fr">Sauts et figures au snowpark.</span><span lang="en">Jumps and tricks in the park.</span></p></article>
+  </div>
+  <!-- VIDEO (optionnel) : enlève les flèches de commentaire pour activer, puis mets ton fichier dans le dossier videos/
+  <figure class="photo reveal" style="margin-top:2rem">
+    <video src="videos/mon-a340.mp4" controls muted playsinline preload="metadata"></video>
+    <figcaption><span lang="fr">Mon A340-600</span><span lang="en">My A340-600</span></figcaption>
+  </figure> -->
+</main>
+<footer><p>© 2026 — Alexandre Claux</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
